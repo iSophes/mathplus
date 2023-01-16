@@ -1,7 +1,11 @@
+<div align="center">
+    <img src="assets/logo/full-logo.png" alt="MathPlus" height="100" /></a>
+</div>
+
 <div>&nbsp;</div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/version-0.0.3-blue" alt="0.0.3" /></a>
+    <img src="https://img.shields.io/badge/version-0.0.4-blue" alt="0.0.4" /></a>
 </div>
 
 <hr />
