@@ -31,6 +31,12 @@ return function (...)
         end
 	end
 
+    -- If there are no inputs then error
+
+    if #numTable == 0 then
+        error("MathPlus: No Input Given!")
+    end
+
     -- Return the processed table.
 
     return numTable
