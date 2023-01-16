@@ -1,11 +1,7 @@
-<div align="center">
-    <a href="https://rojo.space"><img src="assets/logo-512.png" alt="Rojo" height="217" /></a>
-</div>
-
 <div>&nbsp;</div>
 
 <div align="center">
-    <img src="https://img.shields.io/crates/v/rojo.svg?label=latest%20release" alt="0.0.3" /></a>
+    <img src="https://img.shields.io/badge/version-0.0.3-blue" alt="0.0.3" /></a>
 </div>
 
 <hr />
