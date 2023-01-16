@@ -2,11 +2,11 @@ local replicatedStorage = game:GetService("ReplicatedStorage")
 
 local mathPlus = require(replicatedStorage:WaitForChild("Common"):WaitForChild("Packages").MathPlus)
 
-local addedNormal = mathPlus.ordsubtract(1, 2, 3, 4) -- Should return -2
+local addedNormal = mathPlus.divide(1, 2) -- Should return 2
 
-local addTable = {1, 2, 3, 4}
-local addedTable = mathPlus.ordsubtract(addTable)
+local addTable = {1, 2}
+local addedTable = mathPlus.divide(addTable)
 
-print(addedNormal) -- -2
-print(addedTable) -- -2
+print(addedNormal) -- 0.5
+print(addedTable) -- 0.5
 

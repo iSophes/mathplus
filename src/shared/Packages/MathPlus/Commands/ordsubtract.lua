@@ -26,18 +26,8 @@
 
 return function (...)
 
-	local numberTable = {}
-
-	-- Is the arguments a table or not
-	-- If not, make it one. If so then turn the argument given into the table
-
-	if typeof(...) ~= "table" then
-		numberTable = { ... }
-	end
-
-	if typeof(...) == "table" then
-		numberTable = ...
-	end
+	local mathPlus = require(script.Parent.Parent)
+	local numberTable = mathPlus.classcreateTable(...)
 
     local newTable = {}
 
@@ -54,13 +44,12 @@ return function (...)
             if instance ~= maxNum then 
                 continue 
             end
+
             table.insert(newTable, instance)
             table.remove(numberTable, instance)
 		end
     until
         #newTable == max 
 
-
-	local mathPlus = require(script.Parent.Parent)
     return mathPlus.subtract(newTable)    
 end
