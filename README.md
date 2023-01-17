@@ -27,3 +27,7 @@ MathPlus has many features in the library. These include:
 
 * More Functions!
 * Documentation website. (TBD)
+
+# LICENSE
+
+MathPlus is available under the terms of the Mozilla Public License, Version 2.0. See [LICENSE.txt](LICENSE.txt)  for details.
