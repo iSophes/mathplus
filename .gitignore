@@ -1,7 +1,9 @@
-# Project place file
-
-/MathPlus.rbxl
-
-# Roblox Studio lock files
-/*.rbxlx.lock
-/*.rbxl.lock
+.vscode/**
+*.rbxlx
+*.rbxl
+*.rbxl.lock
+*.rbxmx
+*.rbxm
+RBXM
+aftman.toml
+testing
