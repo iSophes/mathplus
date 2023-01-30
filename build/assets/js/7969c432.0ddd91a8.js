@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[13],{63891:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/iSophes/MathPlus/blob/dev","baseUrl":"/MathPlus/","classOrder":[],"apiCategories":[]}')}}]);

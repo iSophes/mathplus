@@ -39,7 +39,7 @@
 	Table Support for MathPlus.acos
 
 	@param table table -- Table of numbers to run acos on
-	@return table --Table of passed that have had acos ran on them.
+	@return table --Table of passed that have had acos ran on them
 ]=]
 
 return function(...)

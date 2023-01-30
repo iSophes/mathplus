@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[165],{7636:e=>{e.exports=JSON.parse('[{"type":"link","href":"/api/MathPlusInitialiser","label":"\u200bMath\u200bPlus\u200bInitialiser"},{"type":"link","href":"/api/abs","label":"abs"},{"type":"link","href":"/api/acos","label":"acos"}]')}}]);
