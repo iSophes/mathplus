@@ -17,8 +17,8 @@ favicon = ".moonwave/static/favicon.png"
 
 organizationName = "iSophes"
 projectName = "MathPlus"
-url = "https://isophes.github.io/"
-baseUrl = "/MathPlus/"
+url = "https://iSophes.github.io/"
+baseUrl = "/mathplus/"
 
 [footer]
 style = "dark"

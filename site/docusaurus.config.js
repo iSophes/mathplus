@@ -18,15 +18,7 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          // Please change this to your repo.
-          editUrl: "https://github.com/iSophes/mathplus/edit/main/site/",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          sidebarCollapsible: true,
-        },
-      }),
+      ({}),
     ],
   ],
 
