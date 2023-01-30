@@ -8,7 +8,6 @@ module.exports = {
   tagline: "Advanced Math Library for Roblox",
   url: "https://iSophes.github.io",
   baseUrl: "/mathplus/",
-  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "./static/img/favicon.png",
   organizationName: "iSophes", // Usually your GitHub org/user name.
