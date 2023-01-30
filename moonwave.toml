@@ -1,9 +1,9 @@
-
-
 title = "MathPlus"
 gitRepoUrl = "https://github.com/iSophes/MathPlus"
 
 classOrder = []
+gitSourceBranch = "dev"
+changelog = true
 
 [home]
 enabled = true
