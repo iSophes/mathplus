@@ -7,7 +7,7 @@
 
     CODE EXAMPLE:
 
-        local n1 = MathsPlus.add(1,2,3,4) -- Returns 10
+        local n1 = MathPlus.add(1,2,3,4) -- Returns 10
 
         local Table = {
             1,
@@ -16,7 +16,7 @@
             4
         }
 
-        local n2 = MathsPlus.add(Table)
+        local n2 = MathPlus.add(Table)
 
         print(n1,n2) -- Prints "10, 10"
 ]]
@@ -28,10 +28,10 @@ return function(...)
 	-- Add our numbers up
 
 	local currentNumber = numberTable[1]
-    table.remove(numberTable, 1)
+	table.remove(numberTable, 1)
 
 	if #numberTable == 0 then
-		return currentNumber 
+		return currentNumber
 	end
 
 	for _, number in pairs(numberTable) do

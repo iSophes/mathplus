@@ -10,7 +10,7 @@
 
     CODE EXAMPLE:
 
-        local n1 = MathsPlus.subtract(1,2,3,4) -- Returns 1 - 2 - 3 - 4 (-8) 
+        local n1 = MathPlus.subtract(1,2,3,4) -- Returns 1 - 2 - 3 - 4 (-8) 
 
         local Table = {
             1,
@@ -19,7 +19,7 @@
             4
         }
 
-        local n2 = MathsPlus.subtract(Table)
+        local n2 = MathPlus.subtract(Table)
 
         print(n1,n2) -- Prints "-8, -8"
 ]]

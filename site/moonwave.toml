@@ -1,0 +1,26 @@
+
+
+title = "MathPlus"
+gitRepoUrl = "https://github.com/iSophes/MathPlus"
+
+classOrder = []
+
+[home]
+enabled = true
+includeReadme = false
+
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"
+tagline = "Improved Mathematics Library for Roblox"
+favicon = ".moonwave/static/favicon.png"
+
+organizationName = "iSophes"
+projectName = "MathPlus"
+url = "https://isophes.github.io/"
+baseUrl = "/MathPlus/"
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2023 Sophie B."
+

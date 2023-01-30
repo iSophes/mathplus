@@ -1,8 +1,9 @@
-.vscode/**
 *.rbxlx
 *.rbxl
 *.rbxl.lock
 *.rbxmx
 *.rbxm
 RBXM
-testing
+src/wally.lock
+Packages/
+src/Packages/

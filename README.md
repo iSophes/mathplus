@@ -1,11 +1,12 @@
 <div align="center">
-    <img src="assets/logo/full-logo.png" alt="MathPlus" height="100" /></a>
+    <img src="logo/thumbnail.png" alt="MathPlus" height="100"> </img>
 </div>
 
 <div>&nbsp;</div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/version-0.0.4-blue" alt="0.0.4" /></a>
+    <img src="https://img.shields.io/github/v/release/iSophes/mathplus" alt="Version"> </img>
+    <img src = "https://img.shields.io/github/license/iSophes/mathplus" alt="license"> </img> 
 </div>
 
 <hr />
@@ -26,8 +27,7 @@ MathPlus has many features in the library. These include:
 # Coming Soon:
 
 * More Functions!
-* Documentation website. (TBD)
 
 # LICENSE
 
-MathPlus is available under the terms of the Mozilla Public License, Version 2.0. See [LICENSE.txt](LICENSE.txt)  for details.
+MathPlus is available under the terms of the MIT License. See [LICENSE](LICENSE) for details.

@@ -5,7 +5,7 @@
 
     "ReplicatedStorage": {
       "MathPlus": {
-        "$path": "Module"
+        "$path": "src"
       }
     },
 
