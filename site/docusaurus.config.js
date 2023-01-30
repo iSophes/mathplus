@@ -21,7 +21,7 @@ module.exports = {
       ({
         docs: {
           // Please change this to your repo.
-          editUrl: "https://github.com/iSophes/mathplus/edit/dev/site/",
+          editUrl: "https://github.com/iSophes/mathplus/edit/main/site/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           sidebarCollapsible: true,
