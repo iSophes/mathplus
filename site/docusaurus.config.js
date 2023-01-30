@@ -10,7 +10,7 @@ module.exports = {
   baseUrl: "/mathplus/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: ".moonwave/favicon.ico",
+  favicon: "./static/img/favicon.png",
   organizationName: "iSophes", // Usually your GitHub org/user name.
   projectName: "MathPlus", // Usually your repo name.
 
@@ -26,10 +26,6 @@ module.exports = {
           showLastUpdateTime: true,
           sidebarCollapsible: true,
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: "https://github.com/iSophes/mathplus/edit/main/site/",
-        },
       }),
     ],
   ],
@@ -40,7 +36,7 @@ module.exports = {
       navbar: {
         logo: {
           alt: "MathPlus",
-          src: "logo/thumbnail.svg",
+          src: "./static/img/thumbnail.svg",
         },
         items: [
           // { to: "/blog", label: "Blog", position: "left" },
