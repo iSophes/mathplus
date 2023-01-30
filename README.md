@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="logo/thumbnail.png" alt="MathPlus" height="100"> </img>
+    <img src=".moonwave/static/thumbnail.png" alt="MathPlus" height="100"> </img>
 </div>
 
 <div>&nbsp;</div>
