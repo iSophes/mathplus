@@ -65,7 +65,7 @@ module.exports = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Sophie B.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sophie B. Built with Moonwave and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
