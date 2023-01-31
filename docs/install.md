@@ -4,14 +4,14 @@ sidebar_position: 2
 
 ---
 
-- [Welcome to the install page!](#welcome-to-the-install-page)
+# Installation
+
+- [Installation](#installation)
   - [Roblox Studio Workflow](#roblox-studio-workflow)
     - [Steps:](#steps)
     - [If you don't know how to require a module:](#if-you-dont-know-how-to-require-a-module)
   - [Wally Workflow](#wally-workflow)
     - [How to require a wally package?](#how-to-require-a-wally-package)
-
-# Welcome to the install page!
 
 This is a page designed to walk you through installing MathPlus and getting it up and running!
 
@@ -37,17 +37,15 @@ In your code you should do something similar to this:
 require(game:GetService("ReplicatedStorage"):WaitForChild("Path1"):WaitForChild("Path2"):WaitForChild("MathPlus"))
 ```
 
-Replace "Path1" and "Path2" with wherever your Module is. Also remember to do a WaitForChild to the actual module so the script can actually require it!
+:::note Info
+Replace `:WaitForChild("Path1")` with where MathPlus is located!
+:::
 
 ## Wally Workflow
 
 Using Wally? Easy work! 
 
 Go to your "Wally.toml" file and put the following in under "Dependencies":
-
-```toml
-    "MathPlus" = "iSophes/MathPlus"
-```
 
 Then run wally install and require it!
 
@@ -59,6 +57,8 @@ Simple! This tutorial will show how to require MathPlus but it will work for any
 require(game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("MathPlus"))
 ```
 
-Just replace "MathPlus" with whatever your module is!
+:::note Info
+Just replace "MathPlus" with whatever you want for other packages you install!
+:::
 
 

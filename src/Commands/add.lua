@@ -1,25 +1,25 @@
---[[
+--[=[
 
-    MATHPLUS | Add Command. 
+    @class add
 
-    Returns given arguments added to each other. 
-    Arguments can be normal or in a table.
+    MathPlus.add returns the given arguments added together.
+    Supports single numbers, returning the passed number
+    Supports multiple numbers, returning all added
+    Supports tables, acting like multiple numbers but in table form.
+]=]
 
-    CODE EXAMPLE:
+--[=[
 
-        local n1 = MathPlus.add(1,2,3,4) -- Returns 10
+    @function AddSingleNumber
+    @within add
 
-        local Table = {
-            1,
-            2,
-            3,
-            4
-        }
+    When a single number is inputted into MathPlus.add, it returns the number given with a warn
+    mentioning that you cannot input singular numbers into MathPlus.
 
-        local n2 = MathPlus.add(Table)
+    @param a number -- 1 number
+    @return a -- Returns A back
 
-        print(n1,n2) -- Prints "10, 10"
-]]
+]=]
 
 return function(...)
 	local mathPlus = require(script.Parent.Parent)
@@ -31,6 +31,9 @@ return function(...)
 	table.remove(numberTable, 1)
 
 	if #numberTable == 0 then
+		local traceback = debug.info(2, "s")
+		warn("MathPlus.add() can only add with multiple values! Traceback: " .. traceback)
+
 		return currentNumber
 	end
 

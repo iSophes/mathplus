@@ -1,13 +1,13 @@
 import clsx from "clsx"
 import React from "react"
-import styles from "..components/HomepageFeatures.js"
+import styles from "..components/HomepageFeatures.module.css"
 
 const FeatureList = [
   {
     title: "Easy",
     description: (
       <>
-        Just require mathplus and start using it!
+        Just require mathplus and start using it! No before-hand setup required!
       </>
     ),
   },

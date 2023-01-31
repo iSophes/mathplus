@@ -4,12 +4,12 @@ sidebar_position: 1
 
 ---
 
-- [Welcome](#welcome)
+# Welcome to MathPlus
+
+- [Welcome to MathPlus](#welcome-to-mathplus)
   - [What does this include?](#what-does-this-include)
   - [How do I install this?](#how-do-i-install-this)
 
-
-# Welcome
 
 Welcome to MathPlus! An advanced math library for Roblox!
 
@@ -20,7 +20,7 @@ All of the features / functions can be found in [API](https://iSophes.github.io/
 
 To be precise, this library contains all of the default lua math functions with most having multiple number and table support!
 
-It also has quite a few custom features. Some are: [Add](https://iSophes.github.io/mathplus/api/add), [Subtract](https://iSophes.github.io/mathplus/api/subtract), [Ordered Subtract](https://iSophes.github.io/mathplus/api/ordsubtract) and more!
+It also has quite a few custom features. Some are: [add] and more!
 
 ## How do I install this?
 

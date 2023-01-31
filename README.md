@@ -30,4 +30,4 @@ MathPlus has many features in the library. These include:
 
 # LICENSE
 
-MathPlus is available under the terms of the MIT License. See [LICENSE](LICENSE) for details.
+MathPlus is available under the terms of the MIT License. See [LICENSE](LICENSE.md) for details.
