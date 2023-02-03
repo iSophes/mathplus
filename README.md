@@ -1,6 +1,7 @@
 <div align="center">
-    <img src=".moonwave/static/thumbnail.png" alt="MathPlus" height="100"> </img>
+    <img src=".moonwave/static/thumbnail.png" alt="MathPlus" height="100" />
 </div>
+
 
 <div>&nbsp;</div>
 

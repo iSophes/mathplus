@@ -45,7 +45,11 @@ Replace `:WaitForChild("Path1")` with where MathPlus is located!
 
 Using Wally? Easy work! 
 
-Go to your "Wally.toml" file and put the following in under "Dependencies":
+Go to your "Wally.toml" file and put the following in under "[Dependencies]":
+
+```
+"MathPlus" = "iSophes/MathPlus"
+```
 
 Then run wally install and require it!
 
@@ -58,7 +62,7 @@ require(game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChi
 ```
 
 :::note Info
-Just replace "MathPlus" with whatever you want for other packages you install!
+Just replace "MathPlus" with whatever you want for other packages you install
 :::
 
 

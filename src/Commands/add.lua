@@ -1,23 +1,48 @@
 --[=[
 
-    @class add
+	@class add
 
-    MathPlus.add returns the given arguments added together.
-    Supports single numbers, returning the passed number
-    Supports multiple numbers, returning all added
-    Supports tables, acting like multiple numbers but in table form.
+	MathPlus.add returns the given arguments added together.
+	Supports single numbers, returning the passed number
+	Supports multiple numbers, returning all added
+	Supports tables, acting like multiple numbers but in table form.
 ]=]
 
 --[=[
 
-    @function AddSingleNumber
-    @within add
+	@function AddSingleNumber
+	@within add
 
-    When a single number is inputted into MathPlus.add, it returns the number given with a warn
-    mentioning that you cannot input singular numbers into MathPlus.
+	Single number support for MathPlus.add
 
-    @param a number -- 1 number
-    @return a -- Returns A back
+	When a single number is inputted into MathPlus.add, it returns the number given with a warn
+	mentioning that you cannot input singular numbers into MathPlus.
+
+	@param a number -- 1 number
+	@return a -- Returns A back
+
+]=]
+
+--[=[
+
+	@function AddMultipleNumbers
+	@within add
+
+	Multiple number support for MathPlus.add
+	@param a number
+	@param b number
+	@return number -- Returns all parameters added 
+
+]=]
+
+--[=[
+
+	@function AddTable
+	@within add
+
+	Table support for MathPlus.add
+	@param a table
+	@return number -- Returns all numbers in table added 
 
 ]=]
 

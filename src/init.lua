@@ -1,6 +1,6 @@
 --[=[
 
-	@class MathPlusInitialiser
+	@class Initialiser
 
 	MathPlus Initialiser, Allows you to run MathPlus.commandName
 
@@ -11,7 +11,7 @@ local mathPlus = {}
 --[=[
 
 	@function commandInit
-	@within MathPlusInitialiser
+	@within Initialiser
 
 	Initialises all of the commands that MathPlus uses. E.g: MathPlus.abs()
 	If the command we try and get fails, we error and state which module errors witth what happened
@@ -40,7 +40,7 @@ end
 --[=[
 
 	@function classInit
-	@within MathPlusInitialiser
+	@within Initialiser
 
 	Similar to commandInit, where it puts all of the commands into the MathPlus table,
 	commandInit requires all of the classes in src/Classes and puts them into the mathPlus table
@@ -75,7 +75,7 @@ end
 --[=[
 
 	@method init
-	@within MathPlusInitialiser
+	@within Initialiser
 
 	Runs classInit and commandInit and then returns our module ready for use by other scripts
 	

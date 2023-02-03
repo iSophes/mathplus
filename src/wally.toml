@@ -1,7 +1,7 @@
 [package]
-name = "iSophes/mathplus"
+name = "isophes/MathPlus"
 description = "MathPlus is an expanded math library for Roblox!"
-version = "1.0.0"
+version = "1.0.3"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
