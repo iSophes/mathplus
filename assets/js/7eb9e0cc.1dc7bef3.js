@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[659],{80855:e=>{e.exports=JSON.parse('{"functions":[],"properties":[],"types":[],"name":"CreateTable","desc":"Turns arguments into tables so each command doesn\'t need to copy and paste the same code","source":{"line":8,"path":"src/Classes/createTable.lua"}}')}}]);
